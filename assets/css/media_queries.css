@@ -75,4 +75,39 @@
     }
 }   
 
-/*×*/
+@media (max-width: 463px) {
+    .logo-text-content h2 {
+        font-size: 5rem;
+    }
+
+    .intro-content h2 {
+        text-align: center;
+    }
+
+    .top3-h2 {
+        font-size: 4rem;
+    }
+    
+    .table-text-content h2 {
+        font-size: 3.5rem;
+    }
+
+    table {
+        width: 10%;
+        font-size: 1.8rem;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-text-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .close-menu-label::after {
+        top: 1rem;
+        right: 2rem;
+    }
+}
