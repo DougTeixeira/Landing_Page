@@ -1,0 +1,67 @@
+.main-bg {
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg {
+    background: var(--white-color);
+}
+
+.top3-bg {
+    background-image: url('../img/top3-bg.svg');
+    background-position: center center;
+}
+
+.gallery-bg {
+    background-image: url('../img/gallery-bg.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.table-bg {
+    background-image: url('../img/table-bg.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 6rem var(--gap);
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    height: 5rem;
+}
+
+.close-menu {
+    display: none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: black;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid rgb(183, 27, 255);
+    border-radius: 50%;
+    transform: rotate(-90deg);
+}
+
+.back-to-top span {
+    animation: slide 1.5s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0.5rem)
+    }
+}

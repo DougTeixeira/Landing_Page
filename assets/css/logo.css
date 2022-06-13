@@ -1,0 +1,25 @@
+.logo-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--gap);
+}
+
+.logo-text-content, .logo-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text-content h2 {
+    font-size: 8rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.logo-img img {
+    max-width: 100%;
+    height: auto;
+}

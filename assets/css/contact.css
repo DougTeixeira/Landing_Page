@@ -1,0 +1,97 @@
+.contact-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--gap);
+}
+
+.contact-text-content {
+    text-align: center;
+}
+
+.contact-text-content h2 {
+    margin-bottom: 3rem;
+}
+
+.contact-text-content p {
+    margin-bottom: 6rem;
+}
+
+.contact-form-content {
+    grid-column: span 2;
+}
+
+.contact-form-content, .form-content {
+    border: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gap);
+}
+
+.form-content {
+    width: 100%;
+}
+
+.contact-legend {
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.form-grup {
+    flex: 1 1 32rem;
+}
+
+.form-grup label {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.form-grup input, .form-grup textarea {
+    border: none;
+    background: var(--white-color);
+    padding: 1.5rem 2rem;
+    width: 100%;
+    font-size: 2rem;
+    background: #eeeeee;
+    outline: none;
+}
+
+.form-grup input:focus, .form-grup textarea:focus {
+    box-shadow: 0 0 1rem 0.2rem rgb(234, 0, 255);
+}
+
+.contact-buttom-form {
+    border: 0.5rem solid white;
+    background: rebeccapurple;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.contact-buttom-form:hover {
+    background: white;
+    color: rebeccapurple;
+}
+
+.full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.form-grup ::placeholder {
+    color: black;
+
+}
+
+.contact-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img img {
+    max-width: 100%;
+    height: auto;
+}
